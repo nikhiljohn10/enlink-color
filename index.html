@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Enlink</title>
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container ">
+                <a id="logo-container" href="#" class="brand-logo blue-text">Enlink</a>
+                <ul class="right hide-on-med-and-down ">
+                    <li><a href="#whyus">Why us?</a></li>
+                    <li><a href="#getstarted">Get Started</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav blue-text">
+                    <li><a href="#whyus">Why us?</a></li>
+                    <li><a href="#getstarted">Get Started</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </nav>
+    </div>
+    <div id="index-banner" class="parallax-container">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <img class="responsive-img" src="images/small-logo.png" alt="Unsplashed background img 2">
+                </div>
+            </div>
+            <div class="row center">
+                <h5 class="header col s12 light blue-text">
+                    <span>A virtual analytics tool for all the entrepreneurs and wannapreneurs</span><br><br><br>
+                </h5>
+            </div>
+        </div>
+        <div class="parallax"><img class="title" src="images/bg.png" alt="Unsplashed background img 2"></div>
+    </div>
+    <div id="whyus" class="container scrollspy">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-action-grade blue-text"></i></h3>
+                    <h4>Why Us?</h4>
+                    <p class="left-align light flow-text">David a huge fan of Mark Zuckerberg and he started up a company along with his friends. They built their website and choose to be the drop-out's to launch the product. Unfortunately their product failed and they were all hopeless when they realized they were just Business Card CEO's . More than 80% startups die within the first three years of starting but we hardly hear about them. Not just the early stage startups have this risk. Even one of the most innovating company Google have lots of failure stories to share including that of the Google Glass. But what if we have a system to forecast the failure rates Or if the entrepreneur can evaluate the idea in a simple way. The EnLink is currently prototyped to evaluate the idea by a group of professionals and the customers. The EnLink group will have a set of the investors, mentors, developers, designers who can evaluate an idea from both the technical as well as the non technical aspects. Also the Enlink rating is going to be the credible ranking for each idea and the investor visibility will be created for those brilliant ideas. David could have been another dropout-billionaire if he had EnLink tool. Let's help those people in saving their effort and improve the products using the EnLink.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+    <div id="getstarted" class="container scrollspy">
+        <div class="section">
+            <div class="row">
+                <br>
+                <br>
+                <div class="col s12 m6 offset-m3 center-align">
+                    <ul class="tabs">
+                        <li class="tab col s6 "><a class="active" href="#signin">Sign In</a></li>
+                        <li class="tab col s6"><a href="#signup">Sign Up</a></li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col s12 m6 offset-m3 left-align">
+                        <div id="signin" class="col s12 white black-text">
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="email" type="email" class="validate" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="password" name="password" type="password" class="validate" required>
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <button class="btn waves-effect waves-light" type="submit" name="action">Sign In
+                                                <i class="mdi-content-send right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="signup" class="col s12 white black-text">
+                            <div class="row">
+                                <form class="col s12" id="signupForm">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="su_username" type="text" class="validate" pattern="[a-zA-Z0-9]{6,}" required>
+                                            <label for="username">UserName</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="su_email" type="email" class="validate" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="su_password" name="password" type="password" pattern="[a-zA-Z0-9]{6,}" class="validate" required>
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="su_password_again" name="password_again" type="password" class="validate_pass" required>
+                                            <label for="password_again">Confirm Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <button class="btn waves-effect waves-light" type="submit" name="action">Sign Up
+                                                <i class="mdi-content-send right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 center-align">
+                                    <h5 class="grey-text">OR</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 center-align">
+                                    <div class="card-panel grey">
+                                        <span class="white-text">Login with Linked In</span>
+                                        <br>
+                                        <br>
+                                        <a href="#" class="btn blue waves-effect waves-light">Linkedin
+                                            <i class="mdi-social-people right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+    <div id="team" class="container scrollspy">
+        <div class="section">
+            <div class="row center">
+                <h4 class="header col s12 light">Our Team</h4>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="images/team1.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4">Nidhiya V Raj</span>
+                            <p>Entrepreneur</p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="images/team2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4">Nikhil John</span>
+                            <p>Developer</p>
+                            <br>
+                            <br>
+                            <!--p><a target="_blank" href="https://nikz.in">nikz.in</a></p-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="images/team3.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4">Arun Suresh Babu</span>
+                            <p>Developer</p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="images/team4.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4">Alan John Paul</span>
+                            <p>Designer</p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Enlink</h5>
+                    <p class="grey-text text-lighten-4">We are a team of college students working on this project. Feel free to contact us on any queries relating our work. </p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" target="blank" href="#!">Nidhiya V Raj</a></li>
+                        <li><a class="white-text" target="blank" href="https://nikz.in">Nikhil John</a></li>
+                        <li><a class="white-text" target="blank" href="#!">Arun Suresh Babu</a></li>
+                        <li><a class="white-text" target="blank" href="#!">Alan John Paul</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by Enlink Team &copy; 2015
+            </div>
+        </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
