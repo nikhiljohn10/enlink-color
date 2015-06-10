@@ -76,3 +76,11 @@ footer.page-footer {
 .feature .feature-logo{
   font-size: 50px;
 }
+
+.fixed-action-btn ul {
+  bottom: 50px;
+}
+
+.init-content{
+  margin-top: 200px;
+}
