@@ -46,6 +46,17 @@ p {
     }
 }
 
+@media only screen and (min-width: 992px) {
+    #features .l4 .feature {
+        height: 374px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #features .l4 .feature {
+        height: 326px;
+    }
+}
+
 .icon-block {
     padding: 0 15px;
 }
@@ -91,18 +102,18 @@ footer.page-footer {
     margin-left: 40px;
 }
 
-.init-content h1{
-  font-size: 200px;
-  margin-bottom: 60px;
+.init-content h1 {
+    font-size: 200px;
+    margin-bottom: 60px;
 }
 
 .search .input-field {
-  margin: 12px;
-  margin-left: 52px;
-  line-height: 40px;
-  height: 40px;
-  width: 100%;
-  border-radius: 4px;
+    margin: 12px;
+    margin-left: 52px;
+    line-height: 40px;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
 }
 
 .search .input-field input[type=text] {
@@ -115,32 +126,32 @@ footer.page-footer {
     border: none;
 }
 
-.search .input-field .prefix{
-  top: -12px;
-  left: 1.5rem;
+.search .input-field .prefix {
+    top: -12px;
+    left: 1.5rem;
 }
 
 .search .input-field .prefix.active {
     color: #fff;
 }
 
-.input-field .prefix ~ input, .input-field .prefix ~ textarea {
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea {
     margin-left: 3rem;
     width: calc(100% - 6rem);
 }
 
-.collapsible-body .right{
-  margin-right: 10px;
-  margin-top: 5px;
-  font-size: 20px;
+.collapsible-body .right {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 20px;
 }
 
 .collapsible.popout > li {
-  overflow: hidden;
+    overflow: hidden;
 }
 
-
-.modal .header .circle{
-  margin-right: 10px;
-  font-size: 40px;
+.modal .header .circle {
+    margin-right: 10px;
+    font-size: 40px;
 }
