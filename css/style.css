@@ -8,79 +8,139 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
 
-.parallax .title{
-  opacity: 0.05;
+.parallax .title {
+    opacity: 0.05;
 }
 
 .card .card-content .card-title {
-  line-height: 30px;
-}
-.card .card-title.tl{
-  font-size: 20px;
+    line-height: 30px;
 }
 
-.card .card-title.large{
-  font-size: 50px;
+.card .card-title.tl {
+    font-size: 20px;
 }
 
-.section .header{
-  margin-top: 100px;
+.card .card-title.large {
+    font-size: 50px;
 }
 
-.feature .feature-logo{
-  font-size: 50px;
+.section .header {
+    margin-top: 100px;
+}
+
+.feature .feature-logo {
+    font-size: 50px;
 }
 
 .fixed-action-btn ul {
-  bottom: 50px;
+    bottom: 50px;
 }
 
-.init-content{
-  margin-top: 200px;
+.init-content {
+    margin-top: 200px;
+}
+
+.brand-name {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.init-content h1{
+  font-size: 200px;
+  margin-bottom: 60px;
+}
+
+.search .input-field {
+  margin: 12px;
+  margin-left: 52px;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.search .input-field input[type=text] {
+    color: #ddd;
+    border: none;
+}
+
+.search .input-field input[type=text]:focus {
+    color: #fff;
+    border: none;
+}
+
+.search .input-field .prefix{
+  top: -12px;
+  left: 1.5rem;
+}
+
+.search .input-field .prefix.active {
+    color: #fff;
+}
+
+.input-field .prefix ~ input, .input-field .prefix ~ textarea {
+    margin-left: 3rem;
+    width: calc(100% - 6rem);
+}
+
+.collapsible-body .right{
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.collapsible.popout > li {
+  overflow: hidden;
+}
+
+
+.modal .header .circle{
+  margin-right: 10px;
+  font-size: 40px;
 }

@@ -25,8 +25,9 @@
         $('ul.tabs').tabs();
         $('.scrollspy').scrollSpy();
         $('.modal-trigger').leanModal();
+        $('select').material_select();
         $("#signupForm").submit(function(event) {
-        	var again = $("#su_password_again");
+            var again = $("#su_password_again");
             if ($("#su_password").val() === again.val()) {
                 again.removeClass('invalid');
                 again.addClass('valid');

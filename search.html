@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Enlink</title>
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="light-blue" role="navigation">
+            <div class="nav-wrapper">
+                <a id="logo-container" href="index.html" class="brand-name white-text light left"> Enlink</a>
+                <div class="search left hide-on-small-only">
+                    <form action="search.html" method="get">
+                        <div class="input-field light-blue lighten-1">
+                            <i class="mdi-action-search prefix"></i>
+                            <input type="text" placeholder="Search" />
+                            <input type="submit" class="hide" />
+                        </div>
+                    </form>
+                </div>
+                <ul class="right">
+                    <li>
+                        <a class="white-text" href="app.html"><i class="mdi-action-home"></i></a>
+                    </li>
+                    <li class="hide-on-med-and-up">
+                        <a class="modal-trigger white-text" href="#search_small"><i class="mdi-action-search"></i></a>
+                    </li>
+                    <li>
+                        <a class='dropdown-button' href='#' data-activates='optiondrop'><i class="mdi-navigation-more-vert white-text"></i></a>
+                        <ul id='optiondrop' class='dropdown-content blue-text'>
+                            <li><a href="#!">Profile</a></li>
+                            <li class="divider"></li>
+                            <li><a href="index.html">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Search</h4>
+                    <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header">
+                                <strong class="bold"><i class="mdi-image-filter-drama"></i>IDEA :</strong>
+                                <strong class="truncate">Create a game with a flapping bird</strong>
+                                <span class="right">
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                </span>
+                            </div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <span class="right"><a class="red-text" onclick="addFav(this); return false;" href="#"><i class="mdi-action-favorite-outline"></i></a></span>
+                                        <p>This is going to be cool. Anyone interested?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                <strong class="bold"><i class="mdi-action-wallet-travel"></i>JOB :</strong>
+                                <strong class="truncate">Anyone need a Drupal Developer?</strong>
+                                <span class="right">
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                </span>
+                            </div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <span class="right"><a class="red-text" onclick="addFav(this); return false;" href="#"><i class="mdi-action-favorite"></i></a></span>
+                                        <p>5 years experience in drupal.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                <strong class="bold"><i class="mdi-social-whatshot"></i>PRODUCT :</strong>
+                                <strong class="truncate">enlink</strong>
+                                <span class="right">
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                    <i class="mdi-action-star-rate"></i>
+                                </span>
+                            </div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <span class="right"><a class="red-text" onclick="addFav(this); return false;" href="#"><i class="mdi-action-favorite-outline"></i></a></span>
+                                        <p>This is a awesome product. We already created it, we need fund for launching product.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="search_small" class="modal">
+        <div class="modal-content">
+            <form action="search.html" method="get">
+                <div class="input-field">
+                    <input id="search_field" type="text">
+                    <label class="active" for="search_field">Search</label>
+                    <input type="submit" class="hide" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
