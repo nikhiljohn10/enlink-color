@@ -24,6 +24,7 @@
         $('.parallax').parallax();
         $('ul.tabs').tabs();
         $('.scrollspy').scrollSpy();
+        $('.modal-trigger').leanModal();
         $("#signupForm").submit(function(event) {
         	var again = $("#su_password_again");
             if ($("#su_password").val() === again.val()) {

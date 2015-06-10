@@ -55,12 +55,24 @@ footer.page-footer {
 }
 
 .parallax .title{
-  opacity: 0.14;
+  opacity: 0.05;
 }
 
 .card .card-content .card-title {
   line-height: 30px;
 }
-.card .card-title{
+.card .card-title.tl{
   font-size: 20px;
+}
+
+.card .card-title.large{
+  font-size: 50px;
+}
+
+.section .header{
+  margin-top: 100px;
+}
+
+.feature .feature-logo{
+  font-size: 50px;
 }
