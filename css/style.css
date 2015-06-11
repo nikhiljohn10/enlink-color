@@ -141,6 +141,12 @@ footer.page-footer {
     width: calc(100% - 6rem);
 }
 
+.collapsible-body .left {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
 .collapsible-body .right {
     margin-right: 10px;
     margin-top: 5px;
